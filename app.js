@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const ejs = require("ejs");
 const session = require("express-session");
 const mongoose = require("mongoose");
